@@ -18,7 +18,7 @@ from typing import (
 
 from aio_pika import Message as AioMessage, connect_robust
 from pika import BasicProperties, BlockingConnection, URLParameters, exceptions
-from app_lib.log import get_logger
+from lib.app_lib.log import get_logger
 
 if TYPE_CHECKING:
     import asyncio  # NOQA

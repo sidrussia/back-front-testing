@@ -14,12 +14,12 @@ from typing import (
 )
 
 from aio_pika import IncomingMessage
-from app_lib.amqp_routes import CONTROLLER, CONTROLLER_EXCHANGE
+from lib.app_lib.amqp_routes import CONTROLLER, CONTROLLER_EXCHANGE
 
-from app_lib.log import get_logger
-from app_lib.messages.message import Message
+from lib.app_lib.log import get_logger
+from lib.app_lib.messages.message import Message
 from logging import Logger
-from app_lib.classes.base import QueueParams, ExchangeParams
+from lib.app_lib.classes.base import QueueParams, ExchangeParams
 
 if TYPE_CHECKING:
     from markets_lib.connections import Connections  # NOQA

@@ -1,8 +1,8 @@
-import app_lib
-from app_lib.services.controller.config import controller_config
-from app_lib.services.main import Service
-from app_lib.services.notification_service import NotificationService
-from app_lib.connections import SyncConnection
+import lib.app_lib
+from lib.app_lib.services.controller.config import controller_config
+from lib.app_lib.services.main import Service
+from lib.app_lib.services.notification_service import NotificationService
+from lib.app_lib.connections import SyncConnection
 from django.apps import AppConfig
 from django.conf import settings
 

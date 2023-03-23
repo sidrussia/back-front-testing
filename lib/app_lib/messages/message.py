@@ -3,7 +3,7 @@ from dataclasses import asdict, is_dataclass, dataclass
 from json import dumps
 from typing import TYPE_CHECKING, Optional
 
-from app_lib.classes.base import Base
+from lib.app_lib.classes.base import Base
 
 if TYPE_CHECKING:
     from dataclasses import dataclass  # NOQA

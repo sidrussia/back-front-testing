@@ -1,7 +1,7 @@
 import pytest
 from typing import TYPE_CHECKING, Callable, NoReturn, Tuple, Any
 
-from lib.build.lib.app_lib.messages.message import RenameFileRequest
+from lib.app_lib.messages.message import RenameFileRequest
 from tasks.models import File
 
 if TYPE_CHECKING:

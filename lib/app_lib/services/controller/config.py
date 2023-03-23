@@ -1,7 +1,7 @@
 __all__ = ['controller_config']
 
-from app_lib.amqp_routes import CONTROLLER, CONTROLLER_EXCHANGE
-from app_lib.messages.message import RenameFileRequest
+from lib.app_lib.amqp_routes import CONTROLLER, CONTROLLER_EXCHANGE
+from lib.app_lib.messages.message import RenameFileRequest
 
 controller_messages = [
     RenameFileRequest

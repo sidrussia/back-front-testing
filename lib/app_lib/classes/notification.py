@@ -1,7 +1,7 @@
 from dataclasses import asdict, dataclass
 from typing import Union
-from app_lib.classes.base import Base
-from app_lib.enums import NotificationType
+from lib.app_lib.classes.base import Base
+from lib.app_lib.enums import NotificationType
 
 
 @dataclass

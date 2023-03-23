@@ -1,12 +1,12 @@
 from typing import Optional
 
 from aio_pika import ExchangeType
-from app_lib.log import get_logger
+from lib.app_lib.log import get_logger
 
-from app_lib.classes.base import ExchangeParams, QueueParams
-from app_lib.classes.notification import Notification
-from app_lib.messages.message import Message
-from app_lib.services.main import BaseService
+from lib.app_lib.classes.base import ExchangeParams, QueueParams
+from lib.app_lib.classes.notification import Notification
+from lib.app_lib.messages.message import Message
+from lib.app_lib.services.main import BaseService
 
 __all__ = [
     'NotificationService',
